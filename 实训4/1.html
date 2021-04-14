@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            list-style: none;
+        }
+        .a{
+            position: relative;
+        }
+        .b{
+            display: none;
+            
+            position: absolute;
+            top:0px;
+            left: 0px;
+        }
+        .a:hover .b{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+<ul>
+    <li class="a">1
+    <ul class="b">
+        <li>2</li>
+        <li>2</li>
+        <li>2</li>
+    </ul>
+    </li>
+</ul>
+</body>
+</html>
